@@ -59,3 +59,6 @@ class Project(Base):
     teams = relationship("Team", back_populates="project")
     tasks = relationship("Task", back_populates="project")
     subscriptions = relationship("Subscription", back_populates="project")
+
+
+
